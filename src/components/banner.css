@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "Oswald-Bold";
+    src: url("../fonts/Oswald-Bold.ttf") format("truetype");
+  }
+  
+.banner__top {
+    overflow: hidden;
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 30vh;
+} 
+
+.banner__img {
+    opacity: 0.54;
+    width: 100%;
+    object-fit: cover;
+    margin-top: -6vh;
+    z-index: -3;
+}
+
+.banner__title {
+    text-transform: uppercase;
+    position: absolute;
+    top: 26vw;
+    left: 23vh;
+    width: 59vh;
+    text-align: left;
+    font: normal normal 100px/135px "Oswald-Bold";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;    
+}
+
+@media only screen and (max-width: 768px) {
+    .banner__title { width:30vh; } 
+}

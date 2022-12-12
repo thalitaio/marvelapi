@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Oswald-Medium";
+    src: url("../fonts/Oswald-Medium.ttf") format("truetype");
+  }
+
+.carrossel__container {
+    height: 40vh;
+    margin-bottom: 30vh;
+}
+
+.carrossel__title {
+    text-transform: uppercase;
+    position:absolute;
+    /* Layout Properties */
+    top: 943px;
+    left: 135px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal medium 28px/41px "Oswald-Medium";
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
